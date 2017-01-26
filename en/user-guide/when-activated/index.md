@@ -63,11 +63,11 @@ this.WhenActivated(
     disposables =>
     {
         this.Bind(…)
-            .DisposeWith(disposables);
+            .AddTo(disposables);
     });
 ```
 
-See https://github.com/kentcb/WorkoutWotch/blob/master/Src/WorkoutWotch.Utility/ReactiveUI/WhenActivatedExtensions.cs for more information.
+See https://github.com/kentcb/WorkoutWotch/blob/master/Src/WorkoutWotch.Utility/System/Reactive/Disposables/CompositeDisposableExtensions.cs for more information.
 
 
 # Chatlogs
